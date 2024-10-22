@@ -19,4 +19,32 @@ footer {
   .contact-info strong {
     color: #ff9a00;
   }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .contact-info p {
+    margin: 0.5rem 0;
+  }
+  
+  .admin-login {
+    margin-top: 1rem;
+  }
+  
+  .login-button {
+    background-color: #ff9a00; /* Color naranja de tu paleta */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #cc7a00; /* Un color más oscuro en hover */
+  }
   
