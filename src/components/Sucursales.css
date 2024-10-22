@@ -1,0 +1,77 @@
+.sucursales-container {
+    padding: 2rem;
+    background-color: #f4f4f4; /* Light background for the section */
+    color: #333; /* Default text color */
+    font-family: 'Montserrat', sans-serif; /* Same font used in the site */
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333; /* Main text color */
+    margin-bottom: 2rem;
+  }
+  
+  .branch-section {
+    background-color: #fff;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .branch-info h2 {
+    font-size: 2rem;
+    color: #ff9a00; /* Primary color for branch names */
+    margin-bottom: 1rem;
+  }
+  
+  .branch-info p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .branch-info strong {
+    color: #333;
+  }
+  
+  .branch-section .google-map {
+    width: 100%;
+    height: 400px;
+    margin-top: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 768px) {
+    .branch-section {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+    }
+  
+    .branch-info {
+      flex: 1;
+      margin-right: 2rem;
+    }
+  
+    .branch-info h2 {
+      font-size: 2.5rem;
+    }
+  
+    .branch-info p {
+      font-size: 1.3rem;
+    }
+  
+    .google-map {
+      flex: 1;
+      margin-top: 0;
+    }
+  }
+  
+  

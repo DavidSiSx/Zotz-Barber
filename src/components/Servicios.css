@@ -1,0 +1,61 @@
+/* Servicios.css */
+body{
+    background-color: rgb(48, 48, 48);
+}
+.hero-servicios {
+    position: relative;
+    height: 400px; /* Ajusta la altura según sea necesario */
+    background-size: cover; /* Asegúrate de que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen de fondo */
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .hero-content {
+    position: relative;
+    backdrop-filter: blur(5px); /* Aplica un efecto de desenfoque al contenido */
+    padding: 20px; /* Espaciado interno para el contenido */
+  }
+  
+  .reserve-button {
+    background-color: orange; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px; /* Espacio arriba del botón */
+  }
+  
+  .reserve-button:hover {
+    background-color: darkorange; /* Cambia el color del botón al pasar el mouse */
+  }
+  
+  /* Estilos para la lista de servicios */
+  .servicios-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .servicio-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .servicio-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  

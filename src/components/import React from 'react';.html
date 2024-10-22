@@ -1,0 +1,47 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const Hub = () => {
+  return (
+    <div>
+      <header>
+        <div className="logo">Barbería XYZ</div>
+        <nav>
+          <Link to="/reservaciones">Reservaciones</Link>
+          <Link to="/barberos">Barberos</Link>
+          <Link to="/mapa">Mapa</Link>
+          <Link to="/perfil">Mi Perfil</Link>
+        </nav>
+      </header>
+
+      <main>
+        <section className="welcome">
+          <h1>Bienvenido a Barbería XYZ</h1>
+          <p>Agenda tu cita hoy mismo.</p>
+          <a href="https://wa.me/tu-numero?text=Quiero%20reservar%20una%20cita" target="_blank" rel="noopener noreferrer">
+            Reservar por WhatsApp
+          </a>
+        </section>
+
+        <section className="map">
+          <h2>Ubícanos</h2>
+          {/* Aquí puedes integrar Google Maps o algún otro componente de mapas */}
+        </section>
+
+        <section className="barberos">
+          <h2>Nuestros Barberos</h2>
+          {/* Aquí puedes mostrar una lista de barberos */}
+        </section>
+      </main>
+
+      <footer>
+        <p>© 2024 Barbería XYZ</p>
+        <div className="social-links">
+          {/* Enlaces a redes sociales */}
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+export default Hub;

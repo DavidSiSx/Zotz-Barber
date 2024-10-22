@@ -1,0 +1,96 @@
+/* Estilos para el skeleton de carga */
+
+.skeleton-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .skeleton-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .skeleton-logo {
+    width: 120px;
+    height: 60px;
+    background-color: #ccc;
+    border-radius: 5px;
+  }
+  
+  .skeleton-nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .skeleton-nav-item {
+    width: 100px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+  }
+  
+  .skeleton-hero {
+    width: 100%;
+    height: 300px;
+    background-color: #ccc;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .skeleton-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .skeleton-item {
+    width: 150px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 10px;
+  }
+  
+  .skeleton-footer {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skeleton-footer-text {
+    width: 200px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .skeleton-footer-info {
+    width: 150px;
+    height: 15px;
+    background-color: #ccc;
+    border-radius: 5px;
+  }
+  
+  .skeleton-container div {
+    animation: skeleton-loading 1.2s infinite;
+  }
+  
+  @keyframes skeleton-loading {
+    0% {
+      background-color: #e0e0e0;
+    }
+    50% {
+      background-color: #c0c0c0;
+    }
+    100% {
+      background-color: #e0e0e0;
+    }
+  }
+  
